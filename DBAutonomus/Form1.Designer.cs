@@ -33,7 +33,7 @@
             // 
             // btnPrueba
             // 
-            btnPrueba.Location = new Point(241, 46);
+            btnPrueba.Location = new Point(211, 58);
             btnPrueba.Name = "btnPrueba";
             btnPrueba.Size = new Size(115, 43);
             btnPrueba.TabIndex = 0;

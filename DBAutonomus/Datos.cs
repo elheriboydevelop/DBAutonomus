@@ -9,7 +9,7 @@ namespace DBAutonomus
     internal class Datos
     {
         OracleConnection con;
-        string cadenaConexion= "User Id=ADMIN;Password=JOSEluis1981;Data Source=jldb_high;";
+        string cadenaConexion = "User Id=ADMIN;Password=JOSEluis1981;Data Source=jldb_high";
         
 
         public bool abrirConexion()
