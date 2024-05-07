@@ -9,7 +9,7 @@ namespace DBAutonomus
 
         private void btnPrueba_Click(object sender, EventArgs e)
         {
-            bool r;
+           
             Datos obj= new Datos();
             if (obj.abrirConexion() == true)
             {
