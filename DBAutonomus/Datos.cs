@@ -14,7 +14,7 @@ namespace DBAutonomus
 
         public bool abrirConexion()
         {
-            OracleConfiguration.TnsAdmin = @"C:\Users\Jose Luis\Downloads\Wallet_JLDB";
+            OracleConfiguration.TnsAdmin = @"C:\Users\Heriberto\Desktop\Microservicios\DBAutonomus\DBAutonomus\Wallet";
             OracleConfiguration.WalletLocation=OracleConfiguration.TnsAdmin;
             try {
                 con = new OracleConnection(cadenaConexion);
