@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            btnPrueba = new Button();
+            SuspendLayout();
+            // 
+            // btnPrueba
+            // 
+            btnPrueba.Location = new Point(241, 46);
+            btnPrueba.Name = "btnPrueba";
+            btnPrueba.Size = new Size(115, 43);
+            btnPrueba.TabIndex = 0;
+            btnPrueba.Text = "Probar";
+            btnPrueba.UseVisualStyleBackColor = true;
+            btnPrueba.Click += btnPrueba_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(601, 162);
+            Controls.Add(btnPrueba);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button btnPrueba;
     }
 }
